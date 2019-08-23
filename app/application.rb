@@ -3,4 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
     
-    users_1 = 
+    num_1 = Kernel.rand(1..24)
+    num_2 = Kernel.rand(1..24)
+    num_3 = Kernel.rand(1..24)
+ 
